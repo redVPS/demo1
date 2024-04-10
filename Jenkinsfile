@@ -3,7 +3,7 @@ pipeline {
 		label 'ssh'
 	}
 	tools {
-        maven 'maven1' 
+        maven 'maven' 
     }
 	stages {
 		stage ('build') {
